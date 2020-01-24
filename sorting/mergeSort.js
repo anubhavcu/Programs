@@ -1,5 +1,5 @@
 //Time- O(nlog(n))
-//space- O(n)
+//space- O(n)  //  (O(n+log(n))) :- log(n) is for function calls in the call stack
 
 function mergeSort(array) {
   if (array.length === 1) return array;
